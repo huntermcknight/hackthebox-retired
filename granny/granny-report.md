@@ -8,6 +8,8 @@
 
 **Privilege Escalation Vulnerability:** TrackPopupMenu Privilege Escalation (MS14-058 / CVE-2014-4113)
 
+[Note: this exact strategy can also be used for Grandpa.]
+
 ## Penetration
 
 We begin with a port scan of the target.
