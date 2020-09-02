@@ -26,7 +26,7 @@ Gobuster finds several interesting scripts and directories, most notably /backup
 
 Upon examination of upload.php and lib.php, we find that uploads are are allow-listed based on MIME type (as determined by magic bytes) and last extension. However, the extension validating function does not check against double extensions. Thus our php reverse shell can thwart input validation if we prepend PNG magic bytes to the file content and append .png to the filename.
 
-**echo -e '\x89\x50\x4e\x47\x0d\x0a\x1a' > shell.php.png; cat /usr/share/webshells/php/php-reverse-shell.php >> shell.php.png**
+**echo -e '\x89\x50\x4e\x47\x0d\x0a\x1a' \> shell.php.png; cat /usr/share/webshells/php/php-reverse-shell.php \>\> shell.php.png**
 
 We can upload the shell at /upload.php and execute it from /photos.php.
 

@@ -48,7 +48,7 @@ The repo is located at /home/roosa/work/blogfeed. The key currently stored there
 
 ![](screenshots/git-log.png)
 
-We can then checkout the commit before the accidental key was "reverted". (It may be necessary to make a new commit first with "git add run_gunicorn.sh; git commit -m 'filler'".) We can then read the accidental key.
+We can then checkout the commit before the accidental key was "reverted". (It may be necessary to make a new commit first with "git add run\_gunicorn.sh; git commit -m 'filler'".) We can then read the accidental key.
 
 ![](screenshots/git-checkout.png)
 
