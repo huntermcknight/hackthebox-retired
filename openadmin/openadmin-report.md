@@ -40,7 +40,7 @@ Poking around the ONA installation internally, we find that the local database c
 
 ![](screenshots/ona-local-database-config.png)
 
-We can use this password to login as jimmy through SSH.
+We can use this password to log in as jimmy through SSH.
 
 ![](screenshots/jimmy-proof.png)
 
@@ -70,7 +70,7 @@ The key is passphrase protected, but we can crack it with John the Ripper.
 
 ![](screenshots/john.png)
 
-With this, we can login as joanna and snag the user flag.
+With this, we can log in as joanna and snag the user flag.
 
 ![](screenshots/joanna-proof.png)
 

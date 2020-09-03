@@ -40,7 +40,7 @@ After downloading and unzipping the BlockyCore.jar file, we are able to see that
 
 ![](screenshots/strings-blockycore.png)
 
-The natural thing to try next is to log into phpMyAdmin, but that's actually unnecessary here (and won't work anyway). We learned the username notch from the blog, and now we've learned a password. Let's try to SSH to Blocky using these credentials.
+The natural thing to try next is to log in to phpMyAdmin, but that's actually unnecessary here (and won't work anyway). We learned the username notch from the blog, and now we've learned a password. Let's try to SSH to Blocky using these credentials.
 
 ![](screenshots/root-proof.png)
 

@@ -36,7 +36,7 @@ We can crack this hash using Crackstation.net.
 
 ![](screenshots/crackstation.png)
 
-We can now login to the CF admin console.
+We can now log in to the CF admin console.
 
 ![](screenshots/cf-console.png)
 

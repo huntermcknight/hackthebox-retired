@@ -4,7 +4,7 @@
 
 **Vulnerabilities Exploited:** Admin Console SQLi and PHP preg_replace() RCE
 
-**Vulnerability Explanation:** The login for the web admin console is vulnerable to SQL injection, allowing attackers to login without a password. The script tool.php in the admin console uses the function preg_replace() unsafely, allowing attackers to execute code on the server by manipulating a web request.
+**Vulnerability Explanation:** The login for the web admin console is vulnerable to SQL injection, allowing attackers to log in without a password. The script tool.php in the admin console uses the function preg_replace() unsafely, allowing attackers to execute code on the server by manipulating a web request.
 
 **Privilege Escalation Vulnerability:** A root cronjob executes a script that does not exist in a directory writable by low-privilege users.
 
@@ -18,7 +18,7 @@ We can see in nmap's output for port 443 that 10.10.10.22 has an SSL certificate
 
 ![](screenshots/login.png)
 
-This login form is vulnerable to SQL injection in the email field. There is some input validation to check for a syntactically valid email, and whitespace is not allowed, but we can login with the following email (and no password):
+This login form is vulnerable to SQL injection in the email field. There is some input validation to check for a syntactically valid email, and whitespace is not allowed, but we can log in with the following email (and no password):
 
 **'/\*\*/or/\*\*/1=1/\*\*/LIMIT/\*\*/1#admin@europacorp.htb**
 

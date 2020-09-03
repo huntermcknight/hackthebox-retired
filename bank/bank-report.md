@@ -44,7 +44,7 @@ Our hunch was correct, and we find a significantly smaller file with an unencryp
 
 ![](screenshots/chris.png)
 
-Using Chris's email and password, we are able to login. Once inside, we see that we have the ability to submit a file when opening a support ticket. However, attempting to submit a webshell script will result in an error claiming we can only submit images.
+Using Chris's email and password, we are able to log in. Once inside, we see that we have the ability to submit a file when opening a support ticket. However, attempting to submit a webshell script will result in an error claiming we can only submit images.
 
 ![](screenshots/oops.png)
 

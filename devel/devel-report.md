@@ -14,7 +14,7 @@ We begin with an nmap port scan.
 
 ![](screenshots/nmap-tcp.png)
 
-Nmap has already found everything needed for an initial foothod: FTP allows anonymous login, and it is apparently aligned with the HTTP server web root. This mean we can upload a web shell to the HTTP server through FTP without needing a username or password. We can also upload a netcat executable so that we can get a normal reverse shell next.
+Nmap has already found everything needed for an initial foothod: FTP allows anonymous login, and it is apparently aligned with the HTTP server web root. This means we can upload a web shell to the HTTP server through FTP without needing a username or password. We can also upload a netcat executable so that we can get a normal reverse shell next.
 
 ![](screenshots/put-webshell.png)
 

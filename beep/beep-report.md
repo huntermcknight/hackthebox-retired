@@ -32,7 +32,7 @@ EDB 37637 shows how to craft a malicious URI to disclose sensitive information a
 
 ![](screenshots/elastix-LFI.png)
 
-In the config file, we notice a single password "jEhdIekWmdjE" that has been reused extensively across the services managed by Elastix. We could log into Elastix with this password or try it on any of the many other admin consoles on the system, but there's something much stupider it couldn't hurt to try first: SSH into Beep as root using this reused password.
+In the config file, we notice a single password "jEhdIekWmdjE" that has been reused extensively across the services managed by Elastix. We could log in to Elastix with this password or try it on any of the many other admin consoles on the system, but there's something much stupider it couldn't hurt to try first: SSH into Beep as root using this reused password.
 
 ![](screenshots/root-proof.png)
 

@@ -24,7 +24,7 @@ The default credentials for Pfsense are admin:pfsense, but they don't work here.
 
 ![](screenshots/system-users.png)
 
-We are now able to login with the credentials rohit:pfsense.
+We are now able to log in with the credentials rohit:pfsense.
 
 ![](screenshots/pfsense-console.png)
 

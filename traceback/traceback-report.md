@@ -40,7 +40,7 @@ The shell requires credentials. They aren't hard to guess, but we can always che
 
 ![](screenshots/smevk-source.png)
 
-Using admin:admin, we login to the shell console.
+Using admin:admin, we log in to the shell console.
 
 ![](screenshots/smevk-console.png)
 

@@ -18,7 +18,7 @@ Googling PRTG exploits, we find two interesting things. First, we find a Reddit 
 
 ![](screenshots/prtg-reddit.png)
 
-Second, we find [this article](https://www.codewatch.org/blog/?p=453) discussiong how to get code execution through the PRTG console. (The author has since automated the exploit and uploaded it to ExploitDB, but since it was published after the NETMON challenge and isn't really necessary anyway, we will exploit manually.)
+Second, we find [this article](https://www.codewatch.org/blog/?p=453) discussing how to get code execution through the PRTG console. (The author has since automated the exploit and uploaded it to ExploitDB, but since it was published after the NETMON challenge and isn't really necessary anyway, we will exploit manually.)
 
 Next, we look for PRTG config files on the FTP server. We find some in C:\ProgramData\Paessler\PRTG Network Monitor, like the reddit thread suggested. (Note that you won't see the ProgramData directory if you ls/dir at the FTP root, but it is there.)
 
@@ -28,7 +28,7 @@ We can GET the files and inspect them locally. We find a plaintext password in t
 
 ![](screenshots/prtg-admin-password.png)
 
-This password will not actually let us log into the console, but PrTg@dmin2019 will.
+This password will not actually let us log in to the console, but PrTg@dmin2019 will.
 
 We now follow the proof of concept we found earlier to get RCE. There appear to be a couple of typos in the PoC. In particular we need to use the powershell demo script, not the bat. We also need to put a '|' character behind the outfile name in the parameter field, not ';'.
 

@@ -48,6 +48,6 @@ As mentioned before, the Webmin installation is vulnerable. Metasploit has a mod
 
 ![](screenshots/searchsploit-webmin.png)
 
-We can use the credentials Matt:computer2008 to login.
+We can use the credentials Matt:computer2008 to log in.
 
 ![](screenshots/root-proof.png)
